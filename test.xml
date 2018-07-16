@@ -22,5 +22,24 @@ Also called caramel malt.</notes>
 <max_in_batch>10.0</max_in_batch>
 <recommend_mash>false</recommend_mash>
 </fermentable>
+<fermentable>
+<name>Crystal 40 L</name>
+<type>grain</type>
+<color scale="L">40.0</color>
+<origin>United Kingdom</origin>
+<supplier>Fussybrewer Malting</supplier>
+<yield_dry_basis>
+<fine_grind>74.0</fine_grind>
+<fine_coarse_difference>1.5</fine_coarse_difference>
+</yield_dry_basis>
+<notes>Darker crystal malt.
+Adds body and improves head retention.
+Also called caramel malt.</notes>
+<moisture>4.0</moisture>
+<diastatic_power>0.0</diastatic_power>
+<protein>14.2</protein>
+<max_in_batch>10.0</max_in_batch>
+<recommend_mash>false</recommend_mash>
+</fermentable>
 </fermentables>
 </beer_xml>
