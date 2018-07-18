@@ -5,7 +5,7 @@
 		<fermentable>
 			<name>Brewers Malt</name>
 			<type>grain</type>
-			<color>1.8</color>
+			<color scale="L">1.8</color>
 			<yield_dry_basis>
 				<fine_grind>81.0</fine_grind>
 				<fine_coarse_difference>1.0</fine_coarse_difference>
@@ -22,7 +22,7 @@
 		<fermentable>
 			<name>Full Pint Brewers Malt</name>
 			<type>grain</type>
-			<color>1.7</color>
+			<color scale="L">1.7</color>
 			<yield_dry_basis>
 				<fine_grind>81.0</fine_grind>
 				<fine_coarse_difference>1.0</fine_coarse_difference>
@@ -39,7 +39,7 @@
 		<fermentable>
 			<name>Synergy Select Pilsen Malt</name>
 			<type>grain</type>
-			<color>1.8</color>
+			<color scale="L">1.8</color>
 			<yield_dry_basis>
 				<fine_grind>83.0</fine_grind>
 				<fine_coarse_difference>1.0</fine_coarse_difference>
@@ -56,7 +56,7 @@
 		<fermentable>
 			<name>Pilsen Malt</name>
 			<type>grain</type>
-			<color>1.2</color>
+			<color scale="L">1.2</color>
 			<yield_dry_basis>
 				<fine_grind>81.0</fine_grind>
 				<fine_coarse_difference>1.5</fine_coarse_difference>
@@ -71,45 +71,43 @@
 			<potential>1.037</potential>
 		</fermentable>
 		<fermentable>
-			<name>"Wheat Malt</name>
-			<type> White"</type>
-			<color>grain</color>
+			<name>Wheat Malt, White</name>
+			<type>grain</type>
+			<color scale="L">2.8</color>
 			<yield_dry_basis>
-				<fine_grind>2.8</fine_grind>
-				<fine_coarse_difference>83.0</fine_coarse_difference>
+				<fine_grind>83.0</fine_grind>
+				<fine_coarse_difference>1.5</fine_coarse_difference>
 			</yield_dry_basis>
-			<origin>1.5</origin>
-			<supplier>United States</supplier>
-			<notes>Briess</notes>
-			<diastatic_power>5.00</diastatic_power>
-			<protein>120.0</protein>
-			<max_in_batch>11.5</max_in_batch>
-			<ibu_gal_per_lb>True</ibu_gal_per_lb>
-			<potential>0.0</potential>
-			<inventory>1.038</inventory>
+			<origin>United States</origin>
+			<supplier>Briess</supplier>
+			<moisture>5.00</moisture>
+			<diastatic_power>120.0</diastatic_power>
+			<protein>11.5</protein>
+			<recommend_mash>True</recommend_mash>
+			<ibu_gal_per_lb>0.0</ibu_gal_per_lb>
+			<potential>1.038</potential>
 		</fermentable>
 		<fermentable>
-			<name>"Wheat Malt</name>
-			<type> Red"</type>
-			<color>grain</color>
+			<name>Wheat Malt, Red</name>
+			<type>grain</type>
+			<color scale="L">3.0</color>
 			<yield_dry_basis>
-				<fine_grind>3.0</fine_grind>
-				<fine_coarse_difference>82.0</fine_coarse_difference>
+				<fine_grind>82.0</fine_grind>
+				<fine_coarse_difference>1.5</fine_coarse_difference>
 			</yield_dry_basis>
-			<origin>1.5</origin>
-			<supplier>United States</supplier>
-			<notes>Briess</notes>
-			<diastatic_power>5.00</diastatic_power>
-			<protein>110.0</protein>
-			<max_in_batch>12.5</max_in_batch>
-			<ibu_gal_per_lb>True</ibu_gal_per_lb>
-			<potential>0.0</potential>
-			<inventory>1.038</inventory>
+			<origin>United States</origin>
+			<supplier>Briess</supplier>
+			<moisture>5.00</moisture>
+			<diastatic_power>110.0</diastatic_power>
+			<protein>12.5</protein>
+			<recommend_mash>True</recommend_mash>
+			<ibu_gal_per_lb>0.0</ibu_gal_per_lb>
+			<potential>1.038</potential>
 		</fermentable>
 		<fermentable>
 			<name>Goldpils Vienna Malt</name>
 			<type>grain</type>
-			<color>3.5</color>
+			<color scale="L">3.5</color>
 			<yield_dry_basis>
 				<fine_grind>80.0</fine_grind>
 				<fine_coarse_difference>2.0</fine_coarse_difference>
@@ -126,7 +124,7 @@
 		<fermentable>
 			<name>Pale Ale Malt</name>
 			<type>grain</type>
-			<color>3.5</color>
+			<color scale="L">3.5</color>
 			<yield_dry_basis>
 				<fine_grind>80.0</fine_grind>
 				<fine_coarse_difference>1.5</fine_coarse_difference>
@@ -143,7 +141,7 @@
 		<fermentable>
 			<name>Ashburne Mild Malt</name>
 			<type>grain</type>
-			<color>5.3</color>
+			<color scale="L">5.3</color>
 			<yield_dry_basis>
 				<fine_grind>79.0</fine_grind>
 				<fine_coarse_difference>2.0</fine_coarse_difference>
@@ -160,9 +158,10 @@
 		<fermentable>
 			<name>Bonlander Munich Malt</name>
 			<type>grain</type>
-			<color>10.0</color>
+			<color scale="L">10.0</color>
 			<yield_dry_basis>
 				<fine_grind>78.0</fine_grind>
+			</yield_dry_basis>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>3.30</moisture>
@@ -175,9 +174,10 @@
 		<fermentable>
 			<name>Aromatic Munich Malt</name>
 			<type>grain</type>
-			<color>20.0</color>
+			<color scale="L">20.0</color>
 			<yield_dry_basis>
 				<fine_grind>77.0</fine_grind>
+			</yield_dry_basis>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>2.50</moisture>
@@ -190,9 +190,10 @@
 		<fermentable>
 			<name>Carapils Malt</name>
 			<type>grain</type>
-			<color>1.5</color>
+			<color scale="L">1.5</color>
 			<yield_dry_basis>
 				<fine_grind>75.0</fine_grind>
+			</yield_dry_basis>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>6.50</moisture>
@@ -203,9 +204,10 @@
 		<fermentable>
 			<name>Carapils Copper Malt</name>
 			<type>grain</type>
-			<color>30.0</color>
+			<color scale="L">30.0</color>
 			<yield_dry_basis>
 				<fine_grind>75.0</fine_grind>
+			</yield_dry_basis>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>5.50</moisture>
@@ -216,9 +218,10 @@
 		<fermentable>
 			<name>Victory Malt</name>
 			<type>grain</type>
-			<color>28.0</color>
+			<color scale="L">28.0</color>
 			<yield_dry_basis>
 				<fine_grind>75.0</fine_grind>
+			</yield_dry_basis>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>2.50</moisture>
@@ -229,9 +232,10 @@
 		<fermentable>
 			<name>Special Roast Malt</name>
 			<type>grain</type>
-			<color>40.0</color>
+			<color scale="L">40.0</color>
 			<yield_dry_basis>
 				<fine_grind>75.0</fine_grind>
+			</yield_dry_basis>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>2.50</moisture>
@@ -242,9 +246,10 @@
 		<fermentable>
 			<name>Extra Special Malt</name>
 			<type>grain</type>
-			<color>130.0</color>
+			<color scale="L">130.0</color>
 			<yield_dry_basis>
 				<fine_grind>73.0</fine_grind>
+			</yield_dry_basis>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>2.50</moisture>
@@ -255,9 +260,10 @@
 		<fermentable>
 			<name>Rye Malt</name>
 			<type>grain</type>
-			<color>3.7</color>
+			<color scale="L">3.7</color>
 			<yield_dry_basis>
 				<fine_grind>84.0</fine_grind>
+			</yield_dry_basis>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>4.50</moisture>
@@ -268,62 +274,60 @@
 			<potential>1.039</potential>
 		</fermentable>
 		<fermentable>
-			<name>"Smoked Malt</name>
-			<type> Apple Wood"</type>
-			<color>grain</color>
+			<name>Smoked Malt, Apple Wood</name>
+			<type>grain</type>
+			<color scale="L">6.0</color>
 			<yield_dry_basis>
-				<fine_grind>6.0</fine_grind>
-				<fine_coarse_difference>80.5</fine_coarse_difference>
+				<fine_grind>80.5</fine_grind>
 			</yield_dry_basis>
-			<supplier>United States</supplier>
-			<notes>Briess</notes>
-			<diastatic_power>6.00</diastatic_power>
-			<protein>90.0</protein>
-			<max_in_batch>11</max_in_batch>
-			<ibu_gal_per_lb>True</ibu_gal_per_lb>
-			<potential>0.0</potential>
-			<inventory>1.037</inventory>
+			<origin>United States</origin>
+			<supplier>Briess</supplier>
+			<moisture>6.00</moisture>
+			<diastatic_power>90.0</diastatic_power>
+			<protein>11</protein>
+			<recommend_mash>True</recommend_mash>
+			<ibu_gal_per_lb>0.0</ibu_gal_per_lb>
+			<potential>1.037</potential>
 		</fermentable>
 		<fermentable>
-			<name>"Smoked Malt</name>
-			<type> Cherry Wood"</type>
-			<color>grain</color>
+			<name>Smoked Malt, Cherry Wood</name>
+			<type>grain</type>
+			<color scale="L">5.0</color>
 			<yield_dry_basis>
-				<fine_grind>5.0</fine_grind>
-				<fine_coarse_difference>80.5</fine_coarse_difference>
+				<fine_grind>80.5</fine_grind>
 			</yield_dry_basis>
-			<supplier>United States</supplier>
-			<notes>Briess</notes>
-			<diastatic_power>6.00</diastatic_power>
-			<protein>90.0</protein>
-			<max_in_batch>11</max_in_batch>
-			<ibu_gal_per_lb>True</ibu_gal_per_lb>
-			<potential>0.0</potential>
-			<inventory>1.037</inventory>
+			<origin>United States</origin>
+			<supplier>Briess</supplier>
+			<moisture>6.00</moisture>
+			<diastatic_power>90.0</diastatic_power>
+			<protein>11</protein>
+			<recommend_mash>True</recommend_mash>
+			<ibu_gal_per_lb>0.0</ibu_gal_per_lb>
+			<potential>1.037</potential>
 		</fermentable>
 		<fermentable>
-			<name>"Smoked Malt</name>
-			<type> Mesquite"</type>
-			<color>grain</color>
+			<name>Smoked Malt, Mesquite</name>
+			<type>grain</type>
+			<color scale="L">5.0</color>
 			<yield_dry_basis>
-				<fine_grind>5.0</fine_grind>
-				<fine_coarse_difference>80.5</fine_coarse_difference>
+				<fine_grind>80.5</fine_grind>
 			</yield_dry_basis>
-			<supplier>United States</supplier>
-			<notes>Briess</notes>
-			<diastatic_power>6.00</diastatic_power>
-			<protein>45.0</protein>
-			<max_in_batch>11</max_in_batch>
-			<ibu_gal_per_lb>True</ibu_gal_per_lb>
-			<potential>0.0</potential>
-			<inventory>1.037</inventory>
+			<origin>United States</origin>
+			<supplier>Briess</supplier>
+			<moisture>6.00</moisture>
+			<diastatic_power>45.0</diastatic_power>
+			<protein>11</protein>
+			<recommend_mash>True</recommend_mash>
+			<ibu_gal_per_lb>0.0</ibu_gal_per_lb>
+			<potential>1.037</potential>
 		</fermentable>
 		<fermentable>
 			<name>Caramel Malt 10L</name>
 			<type>grain</type>
-			<color>10.0</color>
+			<color scale="L">10.0</color>
 			<yield_dry_basis>
 				<fine_grind>77.0</fine_grind>
+			</yield_dry_basis>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>7.00</moisture>
@@ -334,9 +338,10 @@
 		<fermentable>
 			<name>Caramel Malt 20L</name>
 			<type>grain</type>
-			<color>20.0</color>
+			<color scale="L">20.0</color>
 			<yield_dry_basis>
 				<fine_grind>76.0</fine_grind>
+			</yield_dry_basis>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>6.00</moisture>
@@ -347,9 +352,10 @@
 		<fermentable>
 			<name>Caramel Malt 30L</name>
 			<type>grain</type>
-			<color>30.0</color>
+			<color scale="L">30.0</color>
 			<yield_dry_basis>
 				<fine_grind>77.0</fine_grind>
+			</yield_dry_basis>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>5.50</moisture>
@@ -360,9 +366,10 @@
 		<fermentable>
 			<name>Caramel Malt 40L</name>
 			<type>grain</type>
-			<color>40.0</color>
+			<color scale="L">40.0</color>
 			<yield_dry_basis>
 				<fine_grind>77.0</fine_grind>
+			</yield_dry_basis>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>5.50</moisture>
@@ -373,9 +380,10 @@
 		<fermentable>
 			<name>Caramel Malt 60L</name>
 			<type>grain</type>
-			<color>60.0</color>
+			<color scale="L">60.0</color>
 			<yield_dry_basis>
 				<fine_grind>77.0</fine_grind>
+			</yield_dry_basis>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>5.00</moisture>
@@ -386,9 +394,10 @@
 		<fermentable>
 			<name>Caramel Malt 80L</name>
 			<type>grain</type>
-			<color>80.0</color>
+			<color scale="L">80.0</color>
 			<yield_dry_basis>
 				<fine_grind>76.0</fine_grind>
+			</yield_dry_basis>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>4.50</moisture>
@@ -399,9 +408,10 @@
 		<fermentable>
 			<name>Caramel Malt 90L</name>
 			<type>grain</type>
-			<color>90.0</color>
+			<color scale="L">90.0</color>
 			<yield_dry_basis>
 				<fine_grind>75.0</fine_grind>
+			</yield_dry_basis>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>4.00</moisture>
@@ -412,9 +422,10 @@
 		<fermentable>
 			<name>Caramel Malt 120L</name>
 			<type>grain</type>
-			<color>120.0</color>
+			<color scale="L">120.0</color>
 			<yield_dry_basis>
 				<fine_grind>75.0</fine_grind>
+			</yield_dry_basis>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>3.00</moisture>
@@ -425,9 +436,10 @@
 		<fermentable>
 			<name>Caramel Rye Malt</name>
 			<type>grain</type>
-			<color>60.0</color>
+			<color scale="L">60.0</color>
 			<yield_dry_basis>
 				<fine_grind>80.0</fine_grind>
+			</yield_dry_basis>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>5.00</moisture>
@@ -438,9 +450,10 @@
 		<fermentable>
 			<name>Caramel Vienne Malt 20L</name>
 			<type>grain</type>
-			<color>20.0</color>
+			<color scale="L">20.0</color>
 			<yield_dry_basis>
 				<fine_grind>78.0</fine_grind>
+			</yield_dry_basis>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>4.50</moisture>
@@ -451,9 +464,10 @@
 		<fermentable>
 			<name>Caramel Munich Malt 60L</name>
 			<type>grain</type>
-			<color>60.0</color>
+			<color scale="L">60.0</color>
 			<yield_dry_basis>
 				<fine_grind>77.0</fine_grind>
+			</yield_dry_basis>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>3.50</moisture>
@@ -464,9 +478,10 @@
 		<fermentable>
 			<name>Caracrystal Wheat Malt</name>
 			<type>grain</type>
-			<color>55.0</color>
+			<color scale="L">55.0</color>
 			<yield_dry_basis>
 				<fine_grind>78.0</fine_grind>
+			</yield_dry_basis>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>4.00</moisture>
@@ -477,9 +492,10 @@
 		<fermentable>
 			<name>Carabrown Malt</name>
 			<type>grain</type>
-			<color>55.0</color>
+			<color scale="L">55.0</color>
 			<yield_dry_basis>
 				<fine_grind>79.0</fine_grind>
+			</yield_dry_basis>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>2.20</moisture>
@@ -490,7 +506,7 @@
 		<fermentable>
 			<name>Chocolate Malt</name>
 			<type>grain</type>
-			<color>350.0</color>
+			<color scale="L">350.0</color>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>5.50</moisture>
@@ -500,7 +516,7 @@
 		<fermentable>
 			<name>Dark Chocolate Malt</name>
 			<type>grain</type>
-			<color>420.0</color>
+			<color scale="L">420.0</color>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>5.50</moisture>
@@ -510,7 +526,7 @@
 		<fermentable>
 			<name>Black Malt</name>
 			<type>grain</type>
-			<color>500.0</color>
+			<color scale="L">500.0</color>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>6.00</moisture>
@@ -520,7 +536,7 @@
 		<fermentable>
 			<name>Black Malted Barley Flour</name>
 			<type>grain</type>
-			<color>500.0</color>
+			<color scale="L">500.0</color>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>6.00</moisture>
@@ -530,7 +546,7 @@
 		<fermentable>
 			<name>Blackprinz Malt</name>
 			<type>grain</type>
-			<color>500.0</color>
+			<color scale="L">500.0</color>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>6.00</moisture>
@@ -540,7 +556,7 @@
 		<fermentable>
 			<name>Midnight Wheat Malt</name>
 			<type>grain</type>
-			<color>550.0</color>
+			<color scale="L">550.0</color>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>6.50</moisture>
@@ -550,7 +566,7 @@
 		<fermentable>
 			<name>Roasted Barley</name>
 			<type>grain</type>
-			<color>300.0</color>
+			<color scale="L">300.0</color>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>5.00</moisture>
@@ -560,7 +576,7 @@
 		<fermentable>
 			<name>Black Barley</name>
 			<type>grain</type>
-			<color>500.0</color>
+			<color scale="L">500.0</color>
 			<origin>United States</origin>
 			<supplier>Briess</supplier>
 			<moisture>6.00</moisture>
