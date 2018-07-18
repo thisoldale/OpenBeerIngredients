@@ -3,8 +3,8 @@ Brewers Malt,grain,1.8,81.0,1.0,United States,Briess,,4.20,140.0,11.5,,True,0.0,
 Full Pint Brewers Malt,grain,1.7,81.0,1.0,United States,Briess,,4.60,150.0,11.2,,True,0.0,1.037,-
 Synergy Select Pilsen Malt,grain,1.8,83.0,1.0,United States,Briess,,4.50,100.0,10.9,,True,0.0,1.038,-
 Pilsen Malt,grain,1.2,81.0,1.5,United States,Briess,,4.50,140.0,11.3,,True,0.0,1.037,-
-"Wheat Malt, White",grain,2.8,83.0,1.5,United States,Briess,,5.00,120.0,11.5,,True,0.0,1.038,-
-"Wheat Malt, Red",grain,3.0,82.0,1.5,United States,Briess,,5.00,110.0,12.5,,True,0.0,1.038,-
+Wheat Malt - White,grain,2.8,83.0,1.5,United States,Briess,,5.00,120.0,11.5,,True,0.0,1.038,-
+Wheat Malt - Red,grain,3.0,82.0,1.5,United States,Briess,,5.00,110.0,12.5,,True,0.0,1.038,-
 Goldpils Vienna Malt,grain,3.5,80.0,2.0,United States,Briess,,3.50,80.0,12,,True,0.0,1.037,-
 Pale Ale Malt,grain,3.5,80.0,1.5,United States,Briess,,4.00,85.0,11.7,,True,0.0,1.037,-
 Ashburne Mild Malt,grain,5.3,79.0,2.0,United States,Briess,,3.50,65.0,11.7,,True,0.0,1.037,-
@@ -16,9 +16,9 @@ Victory Malt,grain,28.0,75.0,-,United States,Briess,,2.50,-,-,,True,0.0,1.035,-
 Special Roast Malt,grain,40.0,75.0,-,United States,Briess,,2.50,-,-,,True,0.0,1.035,-
 Extra Special Malt,grain,130.0,73.0,-,United States,Briess,,2.50,-,-,,True,0.0,1.034,-
 Rye Malt,grain,3.7,84.0,-,United States,Briess,,4.50,105.0,10,,True,0.0,1.039,-
-"Smoked Malt, Apple Wood",grain,6.0,80.5,-,United States,Briess,,6.00,90.0,11,,True,0.0,1.037,-
-"Smoked Malt, Cherry Wood",grain,5.0,80.5,-,United States,Briess,,6.00,90.0,11,,True,0.0,1.037,-
-"Smoked Malt, Mesquite",grain,5.0,80.5,-,United States,Briess,,6.00,45.0,11,,True,0.0,1.037,-
+Smoked Malt - Apple Wood,grain,6.0,80.5,-,United States,Briess,,6.00,90.0,11,,True,0.0,1.037,-
+Smoked Malt - Cherry Wood,grain,5.0,80.5,-,United States,Briess,,6.00,90.0,11,,True,0.0,1.037,-
+Smoked Malt - Mesquite,grain,5.0,80.5,-,United States,Briess,,6.00,45.0,11,,True,0.0,1.037,-
 Caramel Malt 10L,grain,10.0,77.0,-,United States,Briess,,7.00,-,-,,False,0.0,1.036,-
 Caramel Malt 20L,grain,20.0,76.0,-,United States,Briess,,6.00,-,-,,False,0.0,1.035,-
 Caramel Malt 30L,grain,30.0,77.0,-,United States,Briess,,5.50,-,-,,False,0.0,1.036,-

@@ -71,7 +71,7 @@
 			<potential>1.037</potential>
 		</fermentable>
 		<fermentable>
-			<name>Wheat Malt, White</name>
+			<name>Wheat Malt - White</name>
 			<type>grain</type>
 			<color scale="L">2.8</color>
 			<yield_dry_basis>
@@ -88,7 +88,7 @@
 			<potential>1.038</potential>
 		</fermentable>
 		<fermentable>
-			<name>Wheat Malt, Red</name>
+			<name>Wheat Malt - Red</name>
 			<type>grain</type>
 			<color scale="L">3.0</color>
 			<yield_dry_basis>
@@ -274,7 +274,7 @@
 			<potential>1.039</potential>
 		</fermentable>
 		<fermentable>
-			<name>Smoked Malt, Apple Wood</name>
+			<name>Smoked Malt - Apple Wood</name>
 			<type>grain</type>
 			<color scale="L">6.0</color>
 			<yield_dry_basis>
@@ -290,7 +290,7 @@
 			<potential>1.037</potential>
 		</fermentable>
 		<fermentable>
-			<name>Smoked Malt, Cherry Wood</name>
+			<name>Smoked Malt - Cherry Wood</name>
 			<type>grain</type>
 			<color scale="L">5.0</color>
 			<yield_dry_basis>
@@ -306,7 +306,7 @@
 			<potential>1.037</potential>
 		</fermentable>
 		<fermentable>
-			<name>Smoked Malt, Mesquite</name>
+			<name>Smoked Malt - Mesquite</name>
 			<type>grain</type>
 			<color scale="L">5.0</color>
 			<yield_dry_basis>
