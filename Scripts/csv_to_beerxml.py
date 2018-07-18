@@ -58,5 +58,3 @@ with open('output.xml', 'w') as f:
 	f.write('\t</fermentables>\n'
 			'</beer_xml>\n')
 	f.close()
-	
-#TODO: 	#what about cases where only fine_grind is entered? ) 
